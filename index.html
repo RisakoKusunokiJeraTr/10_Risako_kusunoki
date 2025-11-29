@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="cats.css">
+  <meta name="theme-color" content="#000000">
+  <title>Minister's Cat</title>
+</head>
+
+<body style = background-color:#FFFACD;>
+  <h1 class = "bienvenue">Welcome to The Minister's Cat Game😺</h1>
+  <div class = "explanation">「大臣の猫ゲーム」はビクトリア朝時代の社交ゲームです。このゲームでは、指定された文字で始まる形容詞を使って猫を描写します。<br>
+  <h2 class = "indent">例：「大臣の猫は『赤い』猫」、「大臣の猫は『意地悪な』猫、「大臣の猫は『美しい』猫、、、と続けていき、指定された文字で始まる形容詞を答えられなかった場合はゲーム失敗です。</h2>
+  </div>
+
+  <form action="//www-creators.com/rsc/receiver.php" method="post">
+    <p id = "current-letter">現在の文字：あ</p>
+    <!-- id　のフォント等変更方法調べる -->
+    <label class = "for">大臣の猫は、、、</label>
+        <img src="cat_persian.png" alt="写真" style= "float:right; width:250px; height:auto; margin-right:150px;"><br>
+    <input id ="word" type="text" name="word" maxlength="10" value="" placeholder="10文字以内の形容詞を入力">
+    <label class = "for2">猫！</label><br>
+    <button id="submit" type="button">送信！</button>
+    <p id="result"></p>
+
+  </form>
+
+   <!-- 外部ファイルを読み込む --> 
+  <script src="list.js"></script>
+  <script src="cats.js"></script>
+
+
+</body>
+</html>
+
