@@ -1,0 +1,68 @@
+.bienvenue {
+  font-family: serif;
+  color: #A0522D
+}
+
+.explanation {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.indent {
+  font-size: 1.0em;
+  margin-left: 2em;
+  font-weight: normal;
+}
+
+#current-letter {
+  font-size: 2.0em;
+  color: #A0522D;
+  font-weight: bold;
+}
+
+.for {
+  font-size: 2.0em;
+  margin-left: 2em;
+  font-weight: bold;
+}
+
+#word {
+  font-size: 2.0em;
+  margin-left: 2em;
+  font-weight: bold;
+}
+
+
+.for2 {
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+.submit {
+  margin: auto
+}
+
+.heretimer{
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+#countdown-timer{
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin: 10px auto
+}
+
+.square2 {
+  width: 300px;
+  background-color: blue;
+  padding: 20px;
+  margin: auto
+}
+
