@@ -101,13 +101,3 @@ const currentLetter = currentLetterText.replace("現在の文字：", "").trim()
 // ページ読み込み後にイベントを登録
 sendButton();
 
-
-
-
-// // 最初は送信ボタンを無効化しておく
-//   document.getElementById("submit").disabled = true;
-
-
-//あ　なら　A　のリストを読ませる　と条件付けする
-//Aのリストに含まれるかを判定する
-//の2段階で組む
