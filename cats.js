@@ -51,7 +51,6 @@ function sendButton() {
   document.getElementById("submit").addEventListener("click", function () {
     // .value： その要素が <input> や <textarea> の場合、ユーザーが入力した値を取り出す
     const word = document.getElementById("word").value;
-    // startsWith メソッドは、文字列が指定された文字列で始まるかどうかを判定し、true/false を返す。検索開始位置を指定することも可。
     if (judgeList()) {
       document.getElementById("result").innerText = "クリア😸！"
       nextLetter();
