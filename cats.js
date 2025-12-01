@@ -74,8 +74,7 @@ function sendButton() {
 
 function judgeList() {
   const currentLetterText = document.getElementById("current-letter").innerText;
-// 「現在の文字：」を取り除く（全角コロンに注意）
-const currentLetter = currentLetterText.replace("現在の文字：", "").trim();
+  const currentLetter = currentLetterText.replace("現在の文字：", "").trim();
 
   // 入力値の取得
   const word = document.getElementById("word").value.trim();
