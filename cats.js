@@ -12,10 +12,8 @@ function nextLetter() {
   index++;
   if (index < letters.length) {
     document.getElementById("current-letter").innerText = "現在の文字： " + letters[index];
-    // startTimer(); // 成功したら次のタイマー開始
   } else {
     document.getElementById("result").innerText = "全部クリア！ゲーム終了！";
-    // endGame();
   }
 }
 
