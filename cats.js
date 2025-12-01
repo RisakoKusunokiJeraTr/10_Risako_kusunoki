@@ -56,8 +56,6 @@ function sendButton() {
     // startsWith メソッドは、文字列が指定された文字列で始まるかどうかを判定し、true/false を返す。検索開始位置を指定することも可。
     if (judgeList()) {
       document.getElementById("result").innerText = "クリア😸！"
-      resultElement.style.fontSize = "48px"; // 文字サイズを大きくする
-      resultElement.style.fontWeight = "bold"; // 太字にする
       nextLetter();
       document.getElementById("word").value = ""
 
