@@ -38,6 +38,13 @@
   font-weight: bold;
 }
 
+#result{
+  font-size: 4.0em;
+  color:#FFA500;
+  font-weight: bold;
+  margin-left: 2em;
+}
+
 .submit {
   margin: auto
 }
