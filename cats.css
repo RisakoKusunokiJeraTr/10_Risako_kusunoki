@@ -42,27 +42,3 @@
   margin: auto
 }
 
-.heretimer{
-  font-size: 2.0em;
-  font-weight: bold;
-}
-
-#countdown-timer{
-  font-size: 2.0em;
-  font-weight: bold;
-}
-
-.square {
-  width: 200px;
-  height: 200px;
-  background-color: green;
-  margin: 10px auto
-}
-
-.square2 {
-  width: 300px;
-  background-color: blue;
-  padding: 20px;
-  margin: auto
-}
-
